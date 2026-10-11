@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.idea/
+.vscode/
+
+# Added entries (5 items)
+.pt/
+downloads/
+gitignore_backup/
+dists/
+*sublime*
