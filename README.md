@@ -14,6 +14,9 @@ List Windows systray icons and activate one by number.
 
 Prompt: `N` click | `rN` right | `dN` double | `sN` show real window | `eN` relaunch exe | `/text` filter | `l` refresh | `a` all | `q` quit
 
+### Alias
+**stl**
+
 ## Modes
 - `[v]`/`[h]`: Explorer taskbar present. UI Automation, real click on the tray icon.
 - `[t]`: Explorer is dead (no `Shell_TrayWnd`). systraylist becomes the tray host: it creates `Shell_TrayWnd`, broadcasts `TaskbarCreated`, apps re-register their icons, you get their real tooltips and the click is sent to the app's own icon callback.

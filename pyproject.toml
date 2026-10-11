@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "systraylist"
-version = "0.1.6"
+version = "0.1.8"
 description = "List Windows systray icons and activate one by number"
 readme = "README.md"
 requires-python = ">=3.8"
@@ -29,6 +29,7 @@ Homepage = "https://github.com/cumulus13/systraylist"
 
 [project.scripts]
 systraylist = "systraylist.systraylist:main"
+stl = "systraylist.systraylist:main"
 
 [tool.setuptools]
 packages = [
